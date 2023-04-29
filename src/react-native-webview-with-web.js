@@ -26,7 +26,7 @@ const ReactNativeWebviewWithWeb = (props) => {
 			listenMessage = (event) => {
 				if (event && event.data && event.data.includes && event.data.includes(closeRouteIncludes)) {
 					// eslint-disable-next-line no-alert
-					alert(`Received URL: ${event.data}`);
+					// alert(`Received URL: ${event.data}`);
 					props.setUrl('');
 				}
 			};

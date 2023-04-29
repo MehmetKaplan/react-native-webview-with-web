@@ -1,6 +1,6 @@
 {
   "name": "react-native-webview-with-web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -76,7 +76,7 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-	 "react-native-webview": "*"
+    "react-native-webview": "*"
   },
   "engines": {
     "node": ">= 16.0.0"
